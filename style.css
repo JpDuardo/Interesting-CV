@@ -1,0 +1,114 @@
+/*General*/
+
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+}
+
+/*Header*/
+
+header h1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 3rem;
+  text-align: center;
+  padding: 1.8rem;
+}
+
+header a {
+  margin: 1, 2em 3em;
+}
+
+/*Form*/
+
+form {
+  font-size: 1.1rem;
+  box-sizing: border-box;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+form fieldset {
+  border: 3px solid rgb(0, 100, 0);
+  border-radius: 7px;
+}
+
+fieldset {
+  padding: 3rem;
+}
+
+fieldset div,
+fieldset input {
+  padding: 0.9rem;
+}
+
+form legend {
+  background-color: rgb(50, 200, 130);
+  color: rgb(255, 255, 255);
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding: 1.2rem;
+  border-radius: 6px;
+}
+
+/*Inputs*/
+
+input[type="radio"],
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  padding: 5px;
+  border: 2px solid lightgray;
+  border-radius: 50%;
+  transition: 0.2s all;
+}
+
+input[type="radio"]:checked,
+input[type="checkbox"]:checked {
+  border: 5px solid rgb(29, 196, 113);
+}
+
+
+form .push_label {
+  display: flex;
+  justify-content: space-around;
+  width: 85%;
+}
+
+/*Textarea*/
+
+.story {
+  display: block;
+  resize: none;
+  overflow: auto;
+  margin: 1rem;
+}
+
+/*Buttons*/
+
+.container_button {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+.button {
+  flex-basis: 70%;
+  background-color: rgb(50, 200, 130);
+  color: rgb(255, 255, 255);
+  font-size: 1.1rem;
+  font-weight: 350;
+  border: 1px solid rgb(50, 200, 130);
+  border-radius: 7px;
+  margin: 0 0.8rem;
+  transition: 0.4s all;
+}
+
+.button:hover {
+  font-size: 1.4rem;
+}

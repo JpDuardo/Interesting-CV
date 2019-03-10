@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Luis Miguel Profile | Contact</title>
+
+    <link rel="preload" href="../Profile/style.css" />
+    <link rel="stylesheet" type="text/css" href="../Profile/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Practicing with Forms</h1>
+      <p>Go <a href="../Profile/index.html">back</a></p>
+      <hr />
+    </header>
+    <main>
+      <div class="container">
+        <section>
+          <form action="mailto:name@gmail.com"  id="fomr_1" method="post" enctype="text/plain">
+            <fieldset>
+              <legend>Radio Selection</legend>
+              <p>Select your favorite sport:</p>
+
+              <div>
+                <input
+                  type="radio"
+                  id="tenis"
+                  name="favorite_sport"
+                  value="tenis"
+                />
+                <label for="tenis">Tenis</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  id="football"
+                  name="favorite_sport"
+                  value="football"
+                />
+                <label for="football">Football</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  id="soccer"
+                  name="favorite_sport"
+                  value="soccer"
+                />
+                <label for="soccer">Soccer</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  id="handball"
+                  name="favorite_sport"
+                  value="handball"
+                />
+                <label for="handball">Handball</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  id="basketball"
+                  name="favorite_sport"
+                  value="basketball"
+                />
+                <label for="basketball">Basketball</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  id="Baseball"
+                  name="favorite_sport"
+                  value="Baseball"
+                />
+                <label for="Baseball">Baseball</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  id="golf"
+                  name="favorite_sport"
+                  value="golf"
+                />
+                <label for="golf">Golf</label>
+              </div>
+              <br />
+              <div class="push_label">
+                <label for="user">Enter your Username:</label>
+                <input type="text" name="name" id="user" />
+              </div>
+              <div class="push_label">
+                <label for="email">Enter your Email:</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="name@outlook.com"
+                />
+              </div>
+              <div>
+                <label for="story" class="label_block"
+                  >Explain the reason why you chose this sport:</label
+                >
+                <textarea
+                  name="message"
+                  class="story"
+                  cols="50"
+                  rows="6"
+                  maxlength="500"
+                ></textarea>
+              </div>
+              <div class="container_button">
+                <input type="submit" class="button" value="Submit" />
+                <input type="reset" class="button" value="Reset Info" />
+              </div>
+            </fieldset>
+          </form>
+        </section>
+
+        <section>
+          <form action="mailto:name@gmail.com"  id="fomr_2" method="post" enctype="text/plain">
+            <fieldset>
+              <legend>Checkbox Selection</legend>
+              <p>Select your favorite kind of music:</p>
+
+              <div>
+                <input
+                  type="checkbox"
+                  id="pop"
+                  name="favorite_music"
+                  value="pop"
+                />
+                <label for="pop">Pop</label>
+              </div>
+              <div>
+                <input
+                  type="checkbox"
+                  id="Electro"
+                  name="music"
+                  value="Electro"
+                />
+                <label for="Electro">Electro</label>
+              </div>
+              <div>
+                <input
+                  type="checkbox"
+                  id="Jazz"
+                  name="favorite_music"
+                  value="Jazz"
+                />
+                <label for="Jazz">Jazz</label>
+              </div>
+              <div>
+                <input
+                  type="checkbox"
+                  id="Rock"
+                  name="favorite_music"
+                  value="Rock"
+                />
+                <label for="Rock">Rock</label>
+              </div>
+              <div>
+                <input
+                  type="checkbox"
+                  id="Metal"
+                  name="favorite_music"
+                  value="Metal"
+                />
+                <label for="Metal">Metal</label>
+              </div>
+              <div>
+                <input
+                  type="checkbox"
+                  id="Opera"
+                  name="favorite_music"
+                  value="Opera"
+                />
+                <label for="Opera">Opera</label>
+              </div>
+              <div>
+                <input
+                  type="checkbox"
+                  id="Dance"
+                  name="favorite_music"
+                  value="Dance"
+                />
+                <label for="Dance">Dance</label>
+              </div>
+              <br />
+              <div class="push_label">
+                <label for="user">Enter your Username:</label>
+                <input type="text" name="name" id="user" />
+              </div>
+              <div class="push_label">
+                <label for="email">Enter your Email:</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="name@outlook.com"
+                />
+              </div>
+              <div>
+                <label for="story" class="label_block"
+                  >Explain the reason why you chose it/them:</label
+                >
+                <textarea
+                  name="message"
+                  class="story"
+                  cols="50"
+                  rows="6"
+                  maxlength="500"
+                ></textarea>
+              </div>
+              <div class="container_button">
+                <input type="submit" class="button" value="Submit" />
+                <input type="reset" class="button" value="Reset Info" />
+              </div>
+            </fieldset>
+          </form>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
